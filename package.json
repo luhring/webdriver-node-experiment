@@ -1,0 +1,19 @@
+{
+  "name": "wdtest",
+  "version": "0.2.5",
+  "description": "My first test of using Node with Selenium WebDriver",
+  "main": "",
+  "scripts": {
+    "start": "node google_search",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Luhring",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danluhring/wdtest.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^3.0.1"
+  }
+}
