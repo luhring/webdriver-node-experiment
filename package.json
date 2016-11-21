@@ -1,6 +1,6 @@
 {
   "name": "wdtest",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "My first test of using Node with Selenium WebDriver",
   "main": "",
   "scripts": {
