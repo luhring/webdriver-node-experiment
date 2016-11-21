@@ -2,6 +2,8 @@ version: "2"
 services:
   test-scripts:
     build: .
+    volumes: 
+    - /Users/Dan/Desktop:/data
     depends_on:
     - selenium
   selenium:
