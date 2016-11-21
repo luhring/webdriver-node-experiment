@@ -20,7 +20,7 @@ driver.wait(until.titleIs('webdriver - Google Search'), 1000);
 
 driver.takeScreenshot().then(
     function(image, err) {
-        require('fs').writeFile('screenshot.png', image, 'base64', function(err) {
+        require('fs').writeFile('/data/screenshot.png', image, 'base64', function(err) {
             console.log(err);
         });
     }
