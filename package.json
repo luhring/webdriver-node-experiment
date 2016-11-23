@@ -10,7 +10,7 @@
   "author": "Dan Luhring",
   "repository": {
     "type": "git",
-    "url": "git://github.com/danluhring/wdtest.git"
+    "url": "git://github.com/luhring/webdriver-node-experiment.git"
   },
   "license": "ISC",
   "dependencies": {
