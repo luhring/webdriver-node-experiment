@@ -6,7 +6,7 @@ services:
     - /Users/Dan/Desktop:/data
     environment: 
     - SELENIUM_HOST=selenium
-    - SCREENSHOT_SAVE_PATH=/data/screenshot2.png
+    - SCREENSHOT_SAVE_PATH=/data/screenshot.png
     depends_on:
     - selenium
   selenium:
