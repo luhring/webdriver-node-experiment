@@ -1,5 +1,5 @@
 {
-  "name": "wdtest",
+  "name": "webdriver-node-expirement",
   "version": "0.2.7",
   "description": "My first test of using Node with Selenium WebDriver",
   "main": "",
