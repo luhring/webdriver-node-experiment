@@ -1,8 +1,9 @@
 // configuration
 const _seleniumBrowser = "chrome";
-const _seleniumRemoteHost = "selenium";
+const _seleniumRemoteHost = process.env.SELENIUM_HOST;
 const _seleniumRemotePort = 4444
 const _seleniumRemoteServerUri = "http://" + _seleniumRemoteHost + ":" + _seleniumRemotePort + "/wd/hub";
+const _screenshotSavePath = process.env.SCREENSHOT_SAVE_PATH;
 
 var webdriver = require('selenium-webdriver'),
     By = webdriver.By,
@@ -20,7 +21,7 @@ driver.wait(until.titleIs('webdriver - Google Search'), 1000);
 
 driver.takeScreenshot().then(
     function(image, err) {
-        require('fs').writeFile('/data/screenshot.png', image, 'base64', function(err) {
+        require('fs').writeFile(_screenshotSavePath, image, 'base64', function(err) {
             console.log(err);
         });
     }
